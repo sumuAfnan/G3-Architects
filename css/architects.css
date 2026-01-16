@@ -101,6 +101,7 @@ gap: 4.625rem;
     gap: 73px;
     align-items: center;
     margin-top: 85px;
+    margin-bottom: 130px;
 }
 
 .team-images-container{
@@ -109,6 +110,26 @@ gap: 4.625rem;
     gap: 24px;
 }
 
+.our-features h2{
+    max-width: 537px ;   
+}
+
+.our-features h2{
+    font-size: 2.8125rem;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+#of-our{
+    font-weight: 700;
+}
+#feature{
+    color: #FF900E;
+    font-weight: 700;
+}
+.our-features p{
+    font-size: 1rem;
+    margin-bottom: 32px;
+}
 
 /* responsive */
 @media screen and (max-width:576px) {
