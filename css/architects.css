@@ -91,3 +91,7 @@ gap: 4.625rem;
     font-size: 1rem;
      margin-bottom: 32px;
 }
+.banner-image img{
+    width: 100%;
+  
+}
