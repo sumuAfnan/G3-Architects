@@ -95,6 +95,21 @@ gap: 4.625rem;
     width: 100%;
   
 }
+#team {
+    max-width: 1318px;
+    margin: 0 auto;
+    gap: 73px;
+    align-items: center;
+    margin-top: 85px;
+}
+
+.team-images-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+
+
 /* responsive */
 @media screen and (max-width:576px) {
     .navber, .nav-links{
@@ -104,3 +119,6 @@ gap: 4.625rem;
        gap: 12px;
     }
 }
+
+
+
