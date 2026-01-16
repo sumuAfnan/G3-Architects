@@ -21,9 +21,21 @@
 .text-gray{
     color: #424242;
 }
+.text-gray3{
+    color: #727272;
+}
 
 .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
+}
+.btn-primary{
+    background-color: #FF900E;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 21px 24px;
 }
 
 /*** Color css End ***/
@@ -59,8 +71,23 @@ gap: 4.625rem;
     max-width: 1452px;
     margin: 0 auto;
 }
-
-
-
-
 /* Header css End here  */
+
+/* ##########Banner Css start ######### */
+
+.banner-contents{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 39px;
+
+}
+.banner-description{
+    font-size: 1rem;
+     margin-bottom: 32px;
+}
