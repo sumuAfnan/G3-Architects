@@ -34,7 +34,12 @@
 
 .navber{
 justify-content: space-between;
+align-items: center;
 
+}
+.brand{
+    font-size: 2.8125rem;
+    font-size: 700;
 }
 
 .nav-links{
@@ -50,7 +55,10 @@ gap: 4.625rem;
    font-weight: 500;
 }
 
-
+.navber , .banner{
+    max-width: 1452px;
+    margin: 0 auto;
+}
 
 
 
