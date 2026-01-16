@@ -11,16 +11,29 @@
 }
 /* google font add work end here */
 
-/* ####Shared  STYLE Start here ####*/
+/* ########Shared  STYLE Start here ###########*/
 .display-flex{
     display: flex;
 }
 
+/*** Color css start***/
+
+/* dark2 */
+.text-gray{
+    color: #424242;
+}
 
 
-/* ####Shared  STYLE End here ####*/
+/*** Color css End ***/
+
+/* ##########Shared  STYLE End here ##### ####*/
 
 /* Header css start here  */
+
+.navber{
+justify-content: space-between;
+
+}
 
 .nav-links{
 gap: 4.625rem;
