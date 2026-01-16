@@ -95,3 +95,12 @@ gap: 4.625rem;
     width: 100%;
   
 }
+/* responsive */
+@media screen and (max-width:576px) {
+    .navber, .nav-links{
+        flex-direction: column;
+    }
+    .nav-links{
+       gap: 12px;
+    }
+}
