@@ -55,7 +55,7 @@ align-items: center;
 }
 
 .nav-links{
-gap: 4.625rem;
+gap: 2rem;
 }
 .nav-items{
     list-style-type: none;
@@ -90,6 +90,7 @@ gap: 4.625rem;
 .banner-description{
     font-size: 1rem;
      margin-bottom: 32px;
+     
 }
 .banner-image img{
     width: 100%;
@@ -129,7 +130,7 @@ gap: 4.625rem;
     margin-bottom: 32px;
 }
 
-/* responsive */
+/* responsive for max-width 576 */
 @media screen and (max-width:576px) {
     .navber, .nav-links{
         flex-direction: column;
@@ -156,5 +157,16 @@ gap: 4.625rem;
 }
 }
 
+/* responsive for min width 576 to max width 992 */
 
+@media screen and (min-width:576px) and (max-width:992px) {
+   
+#team{
+    flex-direction: column;
+}
+.our-features{
+ margin: 50px auto;
+ border: 1px solid blue;
+}
 
+}
